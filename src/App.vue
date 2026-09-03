@@ -33,7 +33,7 @@ const title = computed(() => layout.current?.name ?? '华容道');
   <div class="app">
     <header class="app-header">
       <h1 class="title">{{ title }}</h1>
-      <p class="subtitle" v-if="layout.current">{{ layout.current.description }}</p>
+      <p v-if="layout.current" class="subtitle">{{ layout.current.description }}</p>
     </header>
 
     <main class="app-main">

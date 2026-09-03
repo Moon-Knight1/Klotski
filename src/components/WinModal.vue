@@ -25,7 +25,7 @@ onMounted(() => {
       <p class="win-subtitle">
         仅用 <strong>{{ game.moveCount }}</strong> 步通关
       </p>
-      <p class="win-hint" v-if="hint.shortestSteps > 0">
+      <p v-if="hint.shortestSteps > 0" class="win-hint">
         求解器测得此布局最短路径为 {{ hint.shortestSteps }} 步（rule.md 中"横刀立马"已知最优 81 步）
       </p>
       <button id="win-restart-btn" type="button" class="ctrl-btn primary" @click="restart">

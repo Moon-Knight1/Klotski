@@ -1,19 +1,12 @@
 import { describe, it, expect } from 'vitest';
 import { solveBfs } from '@/solver/bfs';
-import { applyMove, isWin } from '@/game';
-import type { Layout, Move } from '@/types';
+import { applyMove } from '@/game';
+import type { Layout } from '@/types';
 
 const layoutModules = import.meta.glob<{ default: Layout }>('@/layouts/*.json', { eager: true });
 const layouts: Layout[] = Object.values(layoutModules)
   .map((m) => m.default)
   .sort((a, b) => a.id.localeCompare(b.id));
-
-const DIRECTION_VECTORS = {
-  up: [0, -1],
-  down: [0, 1],
-  left: [-1, 0],
-  right: [1, 0],
-} as const;
 
 describe('BFS 求解器', () => {
   for (const layout of layouts) {
