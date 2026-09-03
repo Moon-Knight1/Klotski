@@ -1,0 +1,18 @@
+{
+  "id": "xiaoyanchuchao",
+  "name": "小燕出巢",
+  "description": "卒守四角，将围中段，曹操如雏燕般需寻隙而出。",
+  "pieces": [
+    { "id": "caocao", "type": "caocao", "label": "曹", "x": 1, "y": 0 },
+    { "id": "general-guanYu", "type": "general", "label": "关", "x": 0, "y": 3 },
+    { "id": "general-zhangFei", "type": "general", "label": "张", "x": 2, "y": 3 },
+    { "id": "general-zhaoYun", "type": "general", "label": "赵", "x": 0, "y": 2 },
+    { "id": "general-maChao", "type": "general", "label": "马", "x": 2, "y": 2 },
+    { "id": "general-huangZhong", "type": "general", "label": "黄", "x": 0, "y": 4 },
+    { "id": "soldier-1", "type": "soldier", "label": "卒", "x": 0, "y": 0 },
+    { "id": "soldier-2", "type": "soldier", "label": "卒", "x": 3, "y": 0 },
+    { "id": "soldier-3", "type": "soldier", "label": "卒", "x": 0, "y": 1 },
+    { "id": "soldier-4", "type": "soldier", "label": "卒", "x": 3, "y": 1 }
+  ],
+  "exitAt": { "x": 1, "y": 4 }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hengdao-lima",
+  "name": "横刀立马",
+  "description": "经典布局，已知最少 81 步可解（马丁·加德纳 1964）。曹操居中上，关张赵马黄分列下方两侧，卒布底线。",
+  "pieces": [
+    { "id": "caocao", "type": "caocao", "label": "曹", "x": 1, "y": 0 },
+    { "id": "general-guanYu", "type": "general", "label": "关", "x": 0, "y": 2 },
+    { "id": "general-zhangFei", "type": "general", "label": "张", "x": 2, "y": 2 },
+    { "id": "general-zhaoYun", "type": "general", "label": "赵", "x": 0, "y": 3 },
+    { "id": "general-maChao", "type": "general", "label": "马", "x": 2, "y": 3 },
+    { "id": "general-huangZhong", "type": "general", "label": "黄", "x": 0, "y": 4 },
+    { "id": "soldier-1", "type": "soldier", "label": "卒", "x": 0, "y": 0 },
+    { "id": "soldier-2", "type": "soldier", "label": "卒", "x": 3, "y": 0 },
+    { "id": "soldier-3", "type": "soldier", "label": "卒", "x": 0, "y": 1 },
+    { "id": "soldier-4", "type": "soldier", "label": "卒", "x": 3, "y": 1 }
+  ],
+  "exitAt": { "x": 1, "y": 4 }
+}

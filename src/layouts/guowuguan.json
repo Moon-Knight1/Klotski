@@ -1,0 +1,18 @@
+{
+  "id": "guowuguan",
+  "name": "过五关",
+  "description": "关羽千里走单骑，过五关斩六将。此布局仿其险路，路径曲折，调度繁复。",
+  "pieces": [
+    { "id": "caocao", "type": "caocao", "label": "曹", "x": 1, "y": 1 },
+    { "id": "general-guanYu", "type": "general", "label": "关", "x": 0, "y": 0 },
+    { "id": "general-zhangFei", "type": "general", "label": "张", "x": 2, "y": 0 },
+    { "id": "general-zhaoYun", "type": "general", "label": "赵", "x": 0, "y": 3 },
+    { "id": "general-maChao", "type": "general", "label": "马", "x": 2, "y": 3 },
+    { "id": "general-huangZhong", "type": "general", "label": "黄", "x": 1, "y": 4 },
+    { "id": "soldier-1", "type": "soldier", "label": "卒", "x": 0, "y": 1 },
+    { "id": "soldier-2", "type": "soldier", "label": "卒", "x": 3, "y": 1 },
+    { "id": "soldier-3", "type": "soldier", "label": "卒", "x": 0, "y": 2 },
+    { "id": "soldier-4", "type": "soldier", "label": "卒", "x": 3, "y": 2 }
+  ],
+  "exitAt": { "x": 1, "y": 4 }
+}
